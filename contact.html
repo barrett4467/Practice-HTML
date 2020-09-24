@@ -16,41 +16,34 @@
       </div>
     </header>
     <div class="main-content">
-      <h3>About Me</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Sed id semper risus
-        in hendrerit. Viverra accumsan in nisl nisi scelerisque eu ultrices.
-        Pellentesque nec nam aliquam sem et tortor consequat id porta. Venenatis
-        a condimentum vitae sapien pellentesque habitant morbi. Nam aliquam sem
-        et tortor consequat id porta nibh. Tincidunt id aliquet risus feugiat.
-        Gravida cum sociis natoque penatibus et. Lorem ipsum dolor sit amet
-        consectetur adipiscing elit.
-      </p>
-      <p>
-        Faucibus in ornare quam viverra orci sagittis eu volutpat odio. Sit amet
-        massa vitae tortor. Auctor urna nunc id cursus metus aliquam. Orci a
-        scelerisque purus semper eget duis at tellus. Molestie nunc non blandit
-        massa enim nec dui. Consectetur adipiscing elit duis tristique
-        sollicitudin nibh. Venenatis cras sed felis eget velit aliquet sagittis
-        id consectetur. Convallis tellus id interdum velit laoreet id. Morbi
-        tempus iaculis urna id volutpat lacus laoreet.
-      </p>
-      <p>
-        Nulla at volutpat diam ut. Nunc lobortis mattis aliquam faucibus purus.
-        Id donec ultrices tincidunt arcu non. Cursus vitae congue mauris
-        rhoncus. Quis vel eros donec ac odio tempor orci dapibus ultrices.
-        Maecenas volutpat blandit aliquam etiam. Netus et malesuada fames ac
-        turpis egestas. Commodo odio aenean sed adipiscing diam donec
-        adipiscing. Ullamcorper malesuada proin libero nunc consequat.
-        Adipiscing commodo elit at imperdiet dui accumsan sit. Magna fermentum
-        iaculis eu non diam phasellus vestibulum. At tempor commodo ullamcorper
-        a. Luctus venenatis lectus magna fringilla urna. Aliquet eget sit amet
-        tellus.
-      </p>
-
-      <p></p>
+      <h3>Contact Me</h3>
+      <form
+        class="contact-form"
+        action="mailto:barrettcode@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="name">
+          Name:
+          <input type="text" placeholder="name" name="name" id="name" />
+        </label>
+        <label for="email">
+          Email:
+          <input
+            type="text"
+            placeholder="email@you.com"
+            name="email"
+            id="email"
+          />
+        </label>
+        <label for="message">
+          Message:
+          <textarea name="message" id="message"></textarea>
+        </label>
+        <button type="submit" class="submit" value="submit">Submit</button>
+      </form>
     </div>
     <footer>Footer</footer>
   </body>
+  <script src="./assets/javascript/script.js"></script>
 </html>
