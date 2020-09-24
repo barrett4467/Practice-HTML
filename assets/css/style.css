@@ -1,0 +1,29 @@
+body {
+  font-family: 'Poiret One', cursive;
+  background-color: #0d0b0b;
+  color: #fffde8;
+}
+header, footer {
+  font-family: 'Courier Prime', monospace;
+  font-size: 32px;
+  color: #c0a677;
+}
+
+a {
+  color: #c0a677;
+}
+
+.center {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#charlie-photo {
+  float: left;
+  width: 25%;
+  height:2%;
+  margin: 15px;
+  margin-top: 0px;
+}
